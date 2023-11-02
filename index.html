@@ -2,10 +2,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badass Badger</title>
+    <title>Andrew's Lambda</title>
     <script>
       async function handleClick() {
-        let response = await fetch("https://hh85h47wvl.execute-api.eu-west-2.amazonaws.com/badass-badger");
+        let response = await fetch("https://hh85h47wvl.execute-api.eu-west-2.amazonaws.com/andrew-api");
         let text = await response.text();
         document.getElementById("response").innerHTML = text;
         document.getElementById("img").src = 'https://images.unsplash.com/photo-1540573133985-87b6da6d54a9';
